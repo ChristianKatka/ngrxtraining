@@ -1,1 +1,8 @@
-<p>pizzas works!</p>
+
+
+<ul>
+  <li *ngFor="let pizza of pizzas$ | async">
+    {{ pizza.name }}
+  </li>
+</ul>
+
